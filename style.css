@@ -121,6 +121,11 @@ label {
     color: rgb(255, 196, 0);
 }
 
+
+.name3{
+    font-size: 60%;
+    color: rgb(255, 196, 0);
+}
 .input{
     text-transform: uppercase;
 }
