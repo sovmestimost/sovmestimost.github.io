@@ -18,13 +18,21 @@ document.getElementById('check').onclick = function () {
         out.innerHTML = '<i class="srtik1">♥</i>';
         
 
-    } else if (usernum2 === "taron" && usernum3 === "nersisyan" && usernum === "hasmik" && usernum1 === "grigoryan"){
+    } else if (usernum === "Taron" && usernum1 === "Nersisyan" && usernum2 === "Hasmik" && usernum3 === "Grigoryan"){
         out.innerHTML = '<i class="srtik1">♥</i>';
 
-    } else if (usernum === "taron" && usernum1 === "nersisyan" && usernum2 === "hasmik" && usernum3 === "shahbazyan"){
+    }else if (usernum2 === "taron" && usernum3 === "nersisyan" && usernum === "hasmik" && usernum1 === "grigoryan"){
+        out.innerHTML = '<i class="srtik1">♥</i>';
+
+    } else if (usernum2 === "Taron" && usernum3 === "Nersisyan" && usernum === "Hasmik" && usernum1 === "Grigoryan") {
+        out.innerHTML = '<i class="srtik1">♥</i>';
+
+    }else if (usernum === "taron" && usernum1 === "nersisyan" && usernum2 === "hasmik" && usernum3 === "shahbazyan"){
         out.innerHTML = '<p class="zang">call me</p>';
+
     } else if (usernum2 === "taron" && usernum3 === "nersisyan" && usernum === "hasmik" && usernum1 === "shahbazyan") {
         out.innerHTML = '<p class="zang">call me</p>';
+        
     } else    {
         
         var random = Math.floor(Math.random() * 98) + 1
