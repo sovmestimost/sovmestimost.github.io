@@ -5,8 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="stylesheet" type="text/css" href="animate.css" />
     <script src="javascript.js" defer></script>
     <title>Check your compatibility with your favorite person</title>
+    
 </head>
 <body>
 
@@ -44,7 +46,7 @@
                 </div>
                 
                 <div class="grid grid__item">
-                        <div class="out">
+                        <div class="out wow flash">
                             <p class="name2" id="out"></p>
                         </div>
                         </div>
@@ -52,7 +54,10 @@
         </div>
         </form>
     </div>
-
-
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script type="text/javascript" src="wow.min.js"></script>
+<script>
+    new WOW().init();
+</script>
 </body>
 </html>
