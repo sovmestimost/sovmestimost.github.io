@@ -134,6 +134,12 @@ label {
     color: #ff1c55;
     text-transform: uppercase;
 }
+@media screen and (device-aspect-ratio: 375/667) {
+
+    .name3{
+        font-size: 80px;
+    }
+}
 
 @media screen and (device-aspect-ratio: 40/71) {
 
