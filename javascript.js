@@ -24,7 +24,8 @@ document.getElementById('check').onclick = function () {
         usernum === "Տարոն" && usernum1 === "ներսիսյան" && usernum2 === "Հասմիկ" && usernum3 === "Գրիգորյան" ||
         usernum === "հասմիկ" && usernum1 === "գրիգորյան" && usernum2 === "taron" && usernum3 === "ներսիսյան" ||
         usernum === "Հասմիկ" && usernum1 === "Գրիգորյան" && usernum2 === "Taron" && usernum3 === "Ներսիսյան" 
-
+        
+       
 
 
     ) {
@@ -38,7 +39,13 @@ document.getElementById('check').onclick = function () {
     } else if (usernum2 === "taron" && usernum3 === "nersisyan" && usernum === "hasmik" && usernum1 === "shahbazyan") {
         out.innerHTML = '<i class="srtik1">♥</i>';
 
-    } else    {
+    } else if (usernum === "hasmik" && usernum1 === "grigoryan" && usernum2 === "laura" && usernum3 === "abrahamyan" ||
+        usernum === "Hasmik" && usernum1 === "Grigoryan" && usernum2 === "Laura" && usernum3 === "Abrahamyan" ||
+        usernum === "laura" && usernum1 === "abrahamyan" && usernum2 === "hasmik" && usernum3 === "grigoryan" ||
+        usernum === "Laura" && usernum1 === "Abrahamyan" && usernum2 === "Hasmik" && usernum3 === "Grigoryan"
+        ){
+        out.innerHTML = '<p class="name3">Taron<p>';
+        }else    {
         
         var random = Math.floor(Math.random() * 98) + 1
         out.innerHTML = [random] + '%';
